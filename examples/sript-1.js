@@ -10,7 +10,9 @@ function testSize(num) {
         console.log('Large');
     } else if (num >= 20) {
         console.log('Huge');
-    } else console.log("Change Me");
+    } else {
+        console.log("Change Me");
+    }
     // Only change code above this line
 }
 
