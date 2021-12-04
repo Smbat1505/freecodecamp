@@ -19,9 +19,9 @@ function cc(card) {
             break;
     }
     if (count > 0) {
-        console.log (count + " Bet");
+        return (count + " Bet");
     } else {
-        console.log (count + " Hold");
+        return (count + " Hold");
     }
     // Only change code above this line
 }
